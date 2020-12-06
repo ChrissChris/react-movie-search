@@ -37,7 +37,17 @@ export default function SearchMovies() {
         </button>
       </form>
 
-      <div className="card-list">{movies.map((movie) => movie.title)}</div>
+      <div className="card-list">
+        {movies.map((movie) => (
+          <div className="card">
+            <img
+              className="card--image"
+              src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`}
+              alt={movie.title + " poster"}
+            />
+          </div>
+        ))}
+      </div>
     </>
   );
 }
