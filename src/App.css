@@ -69,3 +69,19 @@ small {
     margin-bottom: 0;
   }
 }
+.card {
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #fff;
+  background-color: rgb(49, 49, 49);
+  margin-top: 1.5rem;
+}
+.card--title {
+  margin-bottom: 0.5rem;
+  font-size: 3.2rem;
+}
+
+.card--image {
+  margin: 0 auto;
+  display: block;
+}
