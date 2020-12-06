@@ -3,9 +3,7 @@ import React from "react";
 export default function SearchMovies() {
   return (
     <form className="form">
-      <label className="label" htmlFor="query">
-        Movie Name
-      </label>
+      <div></div>
       <input
         className="input"
         type="text"
