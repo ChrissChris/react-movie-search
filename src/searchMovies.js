@@ -14,6 +14,7 @@ export default function SearchMovies() {
       const data = await res.json();
       setMovies(data.results);
     } catch (err) {
+      alert("Please try again with correct name.");
       console.error(err);
     }
   };
