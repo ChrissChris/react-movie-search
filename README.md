@@ -16,7 +16,6 @@
 
 <br/>
 <br/>
-<br/>
 
 - You can check the app here:
 
