@@ -50,7 +50,7 @@ export default function SearchMovies() {
                 <p>
                   <strong>RELEASE DATE: {movie.release_date}</strong>
                 </p>
-                <p>Rate: {movie.vote_average}</p>
+                <p>RATING: {movie.vote_average}</p>
 
                 <p className="card--desc">{movie.overview}</p>
               </div>
